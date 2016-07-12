@@ -11,7 +11,7 @@
   $grid-item-background: desaturate($action-color, 30%);
   $grid-item-colors:
     desaturate($action-color, 30%),
-    #3581A5,
+    #000000,
     #5FBEBE,
     #98C79A,
     #A7A891,
@@ -21,7 +21,7 @@
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
   $grid-item-color: white;
-  $grid-item-height: 14em;
+  $grid-item-height: 16em;
 
   @include clearfix;
 
@@ -65,7 +65,7 @@
 
   .grid-item img {
     display: block;
-    height: 3em;
+    height: 6em;
     margin: 0 auto 1em;
   }
 

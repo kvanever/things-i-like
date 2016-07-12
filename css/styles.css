@@ -204,7 +204,7 @@ hr {
   border-top: 0;
   cursor: pointer;
   float: left;
-  height: 14em;
+  height: 16em;
   outline: none;
   overflow: hidden;
   padding: 2em;
@@ -224,10 +224,10 @@ hr {
       background-repeat: no-repeat;
       background-size: cover; }
   .grid-items .grid-item:nth-child(2) {
-    background-color: #3581A5;
-    box-shadow: inset 0 0 1px 2px #29637e; }
+    background-color: #000000;
+    box-shadow: inset 0 0 1px 2px black; }
     .grid-items .grid-item:nth-child(2):focus, .grid-items .grid-item:nth-child(2):hover {
-      background-color: #29637e;
+      background-color: black;
       background-position: top;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -273,7 +273,7 @@ hr {
       background-size: cover; }
 .grid-items .grid-item img {
   display: block;
-  height: 3em;
+  height: 6em;
   margin: 0 auto 1em; }
 .grid-items .grid-item h1 {
   color: white;
@@ -298,5 +298,115 @@ hr {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.detail {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .detail:last-child {
+    margin-right: 0; }
+
+article.type-system-sans {
+  font-family: "PT Sans", sans-serif;
+  text-align: left; }
+  article.type-system-sans::after {
+    clear: both;
+    content: "";
+    display: block; }
+  article.type-system-sans h1,
+  article.type-system-sans h2,
+  article.type-system-sans h3,
+  article.type-system-sans p {
+    margin: 0; }
+  article.type-system-sans hr {
+    border-bottom: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: 1.5em 0; }
+  article.type-system-sans p {
+    color: #333;
+    line-height: 1.5; }
+  article.type-system-sans a {
+    color: #1565c0;
+    text-decoration: none; }
+  article.type-system-sans .type {
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 0.7em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+    padding: 0.1em 0;
+    text-align: left;
+    text-transform: uppercase; }
+  article.type-system-sans h1 {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.6em; }
+    @media screen and (min-width: 600px) {
+      article.type-system-sans h1 {
+        font-size: 2.4em; } }
+  article.type-system-sans h2 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-bottom: 1.2em; }
+    @media screen and (min-width: 600px) {
+      article.type-system-sans h2 {
+        font-size: 1.4em; } }
+  article.type-system-sans code {
+    background: #f7f7f7;
+    border-radius: 4.5px;
+    border: 1px solid #e0e0e0;
+    font-family: monaco;
+    font-size: 0.65em;
+    font-style: normal;
+    padding: 0.1em 0.4em;
+    white-space: nowrap; }
+  article.type-system-sans h3 {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase; }
+  article.type-system-sans p.date {
+    color: rgba(51, 51, 51, 0.4);
+    font-family: "PT Sans", sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.5em; }
+  article.type-system-sans p {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1;
+    margin-bottom: 1.5em; }
+    article.type-system-sans p span {
+      font-family: "PT Sans", sans-serif;
+      font-size: 0.8em;
+      font-weight: 600;
+      text-transform: uppercase; }
+  article.type-system-sans hr {
+    width: 3em; }
+  article.type-system-sans a.read-more {
+    display: inline-block;
+    font-family: "PT Sans", sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-left: 0.2em;
+    position: relative;
+    text-transform: uppercase; }
+    article.type-system-sans a.read-more span {
+      font-size: 1.7em;
+      position: absolute;
+      right: -10px;
+      top: -2px; }
+  article.type-system-sans p.author {
+    font-family: "PT Sans", sans-serif;
+    font-style: italic; }
 
 /*# sourceMappingURL=styles.css.map */
